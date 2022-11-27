@@ -79,7 +79,7 @@ nav {
 }
 
 .dropdown:hover .dropdown-content {
-    /* display: block; */
+    display: none;
 }
 
 .right ul {
@@ -635,3 +635,131 @@ nav {
 }
 
 /* js section ends here */
+
+/* python section starts here */
+#python {
+    background-color: #F3ECEA;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0;
+}
+
+.python-left {
+    text-align: center;
+}
+
+.python-left-heading {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.python-left-description {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.python-left-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.python-left-btn-green {
+    background-color: #04AA6D;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 68%;
+}
+
+.python-left-btn-green:hover {
+    background-color: #059862;
+}
+
+.python-left-btn-black {
+    background-color: #282A35;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 68%;
+}
+
+.python-left-btn-black:hover {
+    background-color: black;
+}
+
+.python-left-btn-pink {
+    background-color: #FFC0C7;
+    border-radius: 25px;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 68%;
+}
+
+.python-left-btn-pink:hover {
+    background-color: #ffb3bb;
+}
+
+.python-right {
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-left: 130px;
+    padding: 30px 15px 15px;
+    width: 50%;
+}
+
+.python-right-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.python-right-code {
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    padding: 15px;
+    height: 70%;
+}
+
+.python-right-code span {
+    display: block;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.python-right-btn {
+    background-color: #04AA6D;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 50px;
+    margin-top: 18px;
+}
+
+.python-right-btn:hover {
+    background-color: #059862;
+}
+
+/* python section ends here */
