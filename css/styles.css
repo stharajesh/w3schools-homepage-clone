@@ -508,7 +508,7 @@ nav {
 
 /* js section starts here */
 #js {
-    background-color: #D9EEE1;
+    background-color: #282A35;
     display: flex;
     justify-content: center;
     padding: 90px 0;
@@ -519,15 +519,17 @@ nav {
 }
 
 .js-left-heading {
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    color: white;
 }
 
 .js-left-description {
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 30px;
+    color: white;
 }
 
 .js-left-btn {
@@ -552,27 +554,10 @@ nav {
     background-color: #059862;
 }
 
-.js-left-btn-yellow {
-    background-color: #FFF4A3;
+.js-left-btn-white {
+    background-color: white;
     border-radius: 25px;
     color: black;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    width: 68%;
-}
-
-.js-left-btn-yellow:hover {
-    background-color: #fff080;
-}
-
-.js-left-btn-black {
-    background-color: #282A35;
-    border-radius: 25px;
-    color: white;
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
@@ -583,8 +568,8 @@ nav {
     width: 68%;
 }
 
-.js-left-btn-black:hover {
-    background-color: black;
+.js-left-btn-white:hover {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .js-left-btn-pink {
@@ -624,7 +609,7 @@ nav {
     background-color: white;
     border-left: 4px solid #04AA6D;
     padding: 15px;
-    height: 75%;
+    height: 70%;
 }
 
 .js-right-code span {
