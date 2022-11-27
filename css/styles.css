@@ -380,7 +380,7 @@ nav {
 
 /* css section starts here */
 #css {
-    background-color: #D9EEE1;
+    background-color: #FFF4A3;
     display: flex;
     justify-content: center;
     padding: 90px 0;
@@ -422,23 +422,6 @@ nav {
 
 .css-left-btn-green:hover {
     background-color: #059862;
-}
-
-.css-left-btn-yellow {
-    background-color: #FFF4A3;
-    border-radius: 25px;
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    width: 68%;
-}
-
-.css-left-btn-yellow:hover {
-    background-color: #fff080;
 }
 
 .css-left-btn-black {
