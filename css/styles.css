@@ -1058,3 +1058,112 @@ nav {
 }
 
 /* card-big section ends here */
+
+/* card-small section starts here  */
+.card-small-row1,
+.card-small-row2,
+.card-small-row3,
+.card-small-row4,
+.card-small-row5,
+.card-small-row6,
+.card-small-row7,
+.card-small-row8,
+.card-small-row9,
+.card-small-row10 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-small-row1-c-pink {
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 50%;
+}
+
+.card-small-row1-c-pink-heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-small-row1-c-yellow {
+    background-color: #FFF4A3;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 50%;
+}
+
+.card-small-row1-c-yellow-heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-small-row2-r {
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 25%;
+}
+
+.card-small-row2-r-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-small-row2-kotlin {
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 25%;
+}
+
+.card-small-row2-kotlin-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-small-row2-nodejs {
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 25%;
+}
+
+.card-small-row2-nodejs-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-small-row2-react {
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    margin: 26px 40px;
+    opacity: 0.9;
+    padding: 36px 24px;
+    width: 25%;
+}
+
+.card-small-row2-react-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* card-small section ends here  */
