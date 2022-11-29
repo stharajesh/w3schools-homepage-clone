@@ -895,99 +895,101 @@ nav {
 /* card-big section starts here */
 #card-big {
     background-color: #282A35;
-    padding: 90px 45px;
+    padding: 64px 0px;
 }
 
 .card-big-row1 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 
-.card-big-pink {
+.card-big-php {
     background-color: pink;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-right: 45px;
 }
 
-.card-big-pink-heading {
+.card-big-php-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-pink-description {
+.card-big-php-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
 }
 
-.card-big-yellow {
+.card-big-jquery {
     background-color: #FFF4A3;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-left: 45px;
 }
 
-.card-big-yellow-heading {
+.card-big-jquery-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-yellow-description {
+.card-big-jquery-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
 }
 
 .card-big-row2 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 
-.card-big-lightgrey {
+.card-big-java {
     background-color: #F3ECEA;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-right: 45px;
 }
 
-.card-big-lightgrey-heading {
+.card-big-java-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-lightgrey-description {
+.card-big-java-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
 }
 
-.card-big-lightblue {
+.card-big-c {
     background-color: #D9EEE1;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-left: 45px;
 }
 
-.card-big-lightblue-heading {
+.card-big-c-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-lightblue-description {
+.card-big-c-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
 }
 
 .card-big-row3 {
@@ -995,66 +997,64 @@ nav {
     justify-content: space-between;
 }
 
-.card-big-blue {
+.card-big-w3css {
     background-color: #96D4D4;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-right: 45px;
 }
 
-.card-big-blue-heading {
+.card-big-w3css-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-blue-description {
+.card-big-w3css-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
+
 }
 
-.card-big-grey {
+.card-big-bootstrap {
     background-color: #E7E9EB;
     border-radius: 5px;
-    padding: 25px;
+    margin: 2% 3%;
+    padding: 24px;
     text-align: center;
     width: 50%;
-    margin-left: 45px;
 }
 
-.card-big-grey-heading {
+.card-big-bootstrap-heading {
     font-size: 45px;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
-.card-big-grey-description {
+.card-big-bootstrap-description {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 600;
+    margin: 10px 0 40px;
 }
-
-
-
-
 
 .card-big-btn {
     background-color: #282A35;
     border-radius: 25px;
     color: white;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     font-weight: 600;
-    margin: 45px auto 30px;
-    padding: 10px;
-    width: 35%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: 200px;
 }
 
 .card-big-btn:hover {
     background-color: black;
 }
-
-
 
 /* card-big section ends here */
