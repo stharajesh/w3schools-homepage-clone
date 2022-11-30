@@ -895,7 +895,7 @@ nav {
 /* card-big section starts here */
 #card-big {
     background-color: #282A35;
-    padding: 64px 0px;
+    padding: 60px 0px;
 }
 
 .card-big-row1 {
@@ -1373,3 +1373,74 @@ nav {
 }
 
 /* card-small section ends here  */
+
+/* code-editor section starts here */
+#code-editor {
+    padding: 60px 0;
+}
+
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.code-editor-heading {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.code-editor-description {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+}
+
+.code-editor-demo {
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 75%;
+}
+
+.code-editor-demo-image {
+    width: 100%;
+}
+
+.code-editor-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+}
+
+.code-editor-btn1,
+.code-editor-btn2 {
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px auto 10px 0;
+    padding: 10px 20px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.code-editor-btn1 {
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.code-editor-btn2 {
+    background-color: #FFF4A3;
+    color: #000;
+}
+
+:where(.code-editor-btn1, .code-editor-btn2):hover {
+    opacity: 1;
+}
+
+/* code-editor section ends here */
