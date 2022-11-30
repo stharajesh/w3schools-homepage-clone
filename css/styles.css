@@ -1069,13 +1069,18 @@ nav {
 .card-small-row7,
 .card-small-row8,
 .card-small-row9,
-.card-small-row10 {
+.card-small-row10,
+.card-small-row11 {
     display: flex;
     justify-content: space-between;
 }
 
-.card-small-row1-c-pink {
-    background-color: #FFC0C7;
+.card-small-row1-c,
+.card-small-row1-csharp,
+.card-small-row10-excel,
+.card-small-row10-googlesheets,
+.card-small-row11-machinelearning,
+.card-small-row11-artificialintelligence {
     border-radius: 5px;
     margin: 26px 40px;
     opacity: 0.9;
@@ -1083,84 +1088,285 @@ nav {
     width: 50%;
 }
 
-.card-small-row1-c-pink-heading {
-    font-size: 30px;
-    font-weight: 600;
-    margin: 10px 0;
-    text-align: center;
+.card-small-row1-c {
+    background-color: #ffc0c7;
 }
 
-.card-small-row1-c-yellow {
-    background-color: #FFF4A3;
+.card-small-row1-csharp {
+    background-color: #fff4a3;
+}
+
+.card-small-row10-excel {
+    background-color: #96d4d4;
+}
+
+.card-small-row10-googlesheets {
+    background-color: #fff4a3;
+}
+
+.card-small-row11-machinelearning {
+    background-color: #ffc0c7;
+}
+
+.card-small-row11-artificialintelligence {
+    background-color: #f3ecea;
+}
+
+:where(.card-small-row1-c,
+    .card-small-row1-csharp,
+    .card-small-row10-excel,
+    .card-small-row10-googlesheets,
+    .card-small-row11-machinelearning,
+    .card-small-row11-artificialintelligence):hover {
+    opacity: 1;
+}
+
+.card-small-row2-r,
+.card-small-row2-kotlin,
+.card-small-row2-nodejs,
+.card-small-row2-react,
+.card-small-row3-json,
+.card-small-row3-angularjs,
+.card-small-row3-mysql,
+.card-small-row3-xml,
+.card-small-row4-saas,
+.card-small-row4-icons,
+.card-small-row4-rwd,
+.card-small-row4-graphics,
+.card-small-row5-svg,
+.card-small-row5-canvas,
+.card-small-row5-raspberrypi,
+.card-small-row5-cybersecurity,
+.card-small-row6-colors,
+.card-small-row6-git,
+.card-small-row6-matplotlib,
+.card-small-row6-numpy,
+.card-small-row7-pandas,
+.card-small-row7-scipy,
+.card-small-row7-asp,
+.card-small-row7-accessibility,
+.card-small-row8-appml,
+.card-small-row8-go,
+.card-small-row8-typescript,
+.card-small-row8-django,
+.card-small-row9-mongodb,
+.card-small-row9-statistics,
+.card-small-row9-datascience,
+.card-small-row9-typingspeed {
     border-radius: 5px;
     margin: 26px 40px;
     opacity: 0.9;
     padding: 36px 24px;
-    width: 50%;
-}
-
-.card-small-row1-c-yellow-heading {
-    font-size: 30px;
-    font-weight: 600;
-    margin: 10px 0;
-    text-align: center;
+    width: 25%;
 }
 
 .card-small-row2-r {
-    background-color: #FFC0C7;
-    border-radius: 5px;
-    margin: 26px 40px;
-    opacity: 0.9;
-    padding: 36px 24px;
-    width: 25%;
-}
-
-.card-small-row2-r-heading {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
+    background-color: #f3ecea;
 }
 
 .card-small-row2-kotlin {
-    background-color: #FFC0C7;
-    border-radius: 5px;
-    margin: 26px 40px;
-    opacity: 0.9;
-    padding: 36px 24px;
-    width: 25%;
-}
-
-.card-small-row2-kotlin-heading {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
+    background-color: #D9EEE1;
 }
 
 .card-small-row2-nodejs {
-    background-color: #FFC0C7;
-    border-radius: 5px;
-    margin: 26px 40px;
-    opacity: 0.9;
-    padding: 36px 24px;
-    width: 25%;
-}
-
-.card-small-row2-nodejs-heading {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
+    background-color: #96d4d4;
 }
 
 .card-small-row2-react {
-    background-color: #FFC0C7;
-    border-radius: 5px;
-    margin: 26px 40px;
-    opacity: 0.9;
-    padding: 36px 24px;
-    width: 25%;
+    background-color: #ffc0c7;
 }
 
-.card-small-row2-react-heading {
+.card-small-row3-json {
+    background-color: #fff4a3;
+}
+
+.card-small-row3-angularjs {
+    background-color: #F3ECEA;
+}
+
+.card-small-row3-mysql {
+    background-color: #d9eee1;
+}
+
+.card-small-row3-xml {
+    background-color: #96d4d4;
+}
+
+.card-small-row4-saas {
+    background-color: #ffc0c7;
+}
+
+.card-small-row4-icons {
+    background-color: #fff4a3;
+}
+
+.card-small-row4-rwd {
+    background-color: #F3ECEA;
+}
+
+.card-small-row4-graphics {
+    background-color: #D9EEE1;
+}
+
+.card-small-row5-svg {
+    background-color: #96d4d4;
+}
+
+.card-small-row5-canvas {
+    background-color: #ffc0c7;
+}
+
+.card-small-row5-raspberrypi {
+    background-color: #fff4a3;
+}
+
+.card-small-row5-cybersecurity {
+    background-color: #f3ecea;
+}
+
+.card-small-row6-colors {
+    background-color: #d9eee1;
+}
+
+.card-small-row6-git {
+    background-color: #96d4d4;
+}
+
+.card-small-row6-matplotlib {
+    background-color: #ffc0c7;
+}
+
+.card-small-row6-numpy {
+    background-color: #fff4a3;
+}
+
+.card-small-row7-pandas {
+    background-color: #f3ecea;
+}
+
+.card-small-row7-scipy {
+    background-color: #d9eee1;
+}
+
+.card-small-row7-asp {
+    background-color: #96d4d4;
+}
+
+.card-small-row7-accessibility {
+    background-color: #ffc0c7;
+}
+
+.card-small-row8-appml {
+    background-color: #fff4a3;
+}
+
+.card-small-row8-go {
+    background-color: #f3ecea;
+}
+
+.card-small-row8-typescript {
+    background-color: #d9eee1;
+}
+
+.card-small-row8-django {
+    background-color: #96d4d4;
+}
+
+.card-small-row9-mongodb {
+    background-color: #ffc0c7;
+}
+
+.card-small-row9-statistics {
+    background-color: #fff4a3;
+}
+
+.card-small-row9-datascience {
+    background-color: #f3ecea;
+}
+
+.card-small-row9-typingspeed {
+    background-color: #d9eee1;
+}
+
+:where(.card-small-row2-r,
+    .card-small-row2-kotlin,
+    .card-small-row2-nodejs,
+    .card-small-row2-react,
+    .card-small-row3-json,
+    .card-small-row3-angularjs,
+    .card-small-row3-mysql,
+    .card-small-row3-xml,
+    .card-small-row4-saas,
+    .card-small-row4-icons,
+    .card-small-row4-rwd,
+    .card-small-row4-graphics,
+    .card-small-row5-svg,
+    .card-small-row5-canvas,
+    .card-small-row5-raspberrypi,
+    .card-small-row5-cybersecurity,
+    .card-small-row6-colors,
+    .card-small-row6-git,
+    .card-small-row6-matplotlib,
+    .card-small-row6-numpy,
+    .card-small-row7-pandas,
+    .card-small-row7-scipy,
+    .card-small-row7-asp,
+    .card-small-row7-accessibility,
+    .card-small-row8-appml,
+    .card-small-row8-go,
+    .card-small-row8-typescript,
+    .card-small-row8-django,
+    .card-small-row9-mongodb,
+    .card-small-row9-statistics,
+    .card-small-row9-datascience,
+    .card-small-row9-typingspeed):hover {
+    opacity: 1;
+}
+
+.card-small-row1-c-heading,
+.card-small-row1-csharp-heading,
+.card-small-row10-excel-heading,
+.card-small-row10-googlesheets-heading,
+.card-small-row11-machinelearning-heading,
+.card-small-row11-artificialintelligence-heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-small-row2-r-heading,
+.card-small-row2-kotlin-heading,
+.card-small-row2-nodejs-heading,
+.card-small-row2-react-heading,
+.card-small-row3-json-heading,
+.card-small-row3-angularjs-heading,
+.card-small-row3-mysql-heading,
+.card-small-row3-xml-heading,
+.card-small-row4-saas-heading,
+.card-small-row4-icons-heading,
+.card-small-row4-rwd-heading,
+.card-small-row4-graphics-heading,
+.card-small-row5-svg-heading,
+.card-small-row5-canvas-heading,
+.card-small-row5-raspberrypi-heading,
+.card-small-row5-cybersecurity-heading,
+.card-small-row6-colors-heading,
+.card-small-row6-git-heading,
+.card-small-row6-matplotlib-heading,
+.card-small-row6-numpy-heading,
+.card-small-row7-pandas-heading,
+.card-small-row7-scipy-heading,
+.card-small-row7-asp-heading,
+.card-small-row7-accessibility-heading,
+.card-small-row8-appml-heading,
+.card-small-row8-go-heading,
+.card-small-row8-typescript-heading,
+.card-small-row8-django-heading,
+.card-small-row9-mongodb-heading,
+.card-small-row9-statistics-heading,
+.card-small-row9-datascience-heading,
+.card-small-row9-typingspeed-heading {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
