@@ -1424,9 +1424,9 @@ nav {
     font-size: 18px;
     font-weight: 600;
     margin: 10px auto 10px 0;
+    opacity: 0.9;
     padding: 10px 20px;
     text-align: center;
-    opacity: 0.9;
 }
 
 .code-editor-btn1 {
@@ -1444,3 +1444,166 @@ nav {
 }
 
 /* code-editor section ends here */
+
+/* web-templates starts here */
+#web-templates {
+    background-color: #E7E9EB;
+    padding: 90px 0;
+}
+
+.web-templates-h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.web-templates-h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    text-align: center;
+}
+
+.web-templates-image-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.web-templates-image {
+    width: 75%;
+}
+
+.web-templates-btn {
+    font-size: 20px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.web-templates-btn:hover {
+    background-color: black;
+}
+
+/* web-templates ends here */
+
+/* footer section starts here */
+#footer {
+    padding: 30px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.footer-top-btn-container,
+.footer-top-links-container {
+    padding: 10px 0px;
+}
+
+.footer-top-btn {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.footer-top-btn:hover {
+    opacity: 0.9;
+}
+
+.footer-top-links {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.footer-top-links-verticalbar {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.footer-top-links:hover {
+    color: #4CAF50;
+}
+
+.footer-middle {
+    padding: 10px 20px;
+}
+
+.footer-middle-social-container {
+    padding: 10px 0;
+    text-align: right;
+}
+
+.footer-middle-social {
+    color: white;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.footer-middle-social:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-bottom {
+    padding: 10px 20px;
+}
+
+.footer-bottom-description {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-bottom-copyright-container {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-bottom-copyright-container .copyright {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-bottom-copyright-container .copyright:hover {
+    color: #4CAF50;
+}
+
+.footer-bottom-like-container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.like {
+    font-size: 36px;
+    color: white;
+    ;
+}
+
+.like:hover {
+    opacity: 0.6;
+}
+
+/* footer section ends here */
