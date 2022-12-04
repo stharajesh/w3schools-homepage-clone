@@ -1559,6 +1559,8 @@ nav {
     font-size: 20px;
     padding: 13px;
     border-radius: 5px;
+    text-align: center;
+    display: inline-block;
 }
 
 .footer-middle-social:hover {
